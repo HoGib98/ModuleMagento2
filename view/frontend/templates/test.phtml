@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * @var \Magento\HelloWorld\Block\Test $block
+ */
+  echo   $block->getName();
+echo get_class($block);
+
+echo "<pre>";
+    print_r(get_class_methods($block));
+echo "<pre>";
+  echo $block->getUrl('customer/account/login',['id'=>123,'abc'=>'12']);
+?>
+<h1>Hello World</h1>
